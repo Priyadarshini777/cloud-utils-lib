@@ -1,7 +1,4 @@
-from cloud_utils_lib import greet
+from cloud_utils_lib import ping
 
-
-def test_greet_returns_string():
-    result = greet("Priii")
-    assert isinstance(result, str)
-    assert "Hello" in result
+def test_ping():
+    assert ping() == "pong"
