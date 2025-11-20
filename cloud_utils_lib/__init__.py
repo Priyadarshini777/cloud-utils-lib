@@ -1,2 +1,2 @@
 def ping():
-    return "pong from cloud-utils-lib!"
+    return "pong"
